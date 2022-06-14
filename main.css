@@ -1,0 +1,7 @@
+header,
+main,
+footer {
+    width: 1000px; 
+    display: inline-block;
+    margin: 0 calc((100% - 1000px) / 2);
+}
