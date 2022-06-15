@@ -26,5 +26,8 @@ a {
 }
 a:first-child {
     margin: 0;
-    
+}
+a:hover {
+    text-decoration: underline;
+    color: #649;
 }
