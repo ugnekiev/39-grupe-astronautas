@@ -2,6 +2,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
 header,
 main,
 footer {
@@ -9,6 +10,16 @@ footer {
     display: inline-block;
     margin: 0 calc((100% - 1000px) / 2);
 }
+
+body > * {
+    margin-bottom: 60px;
+}
+body > *:nth-last-child(2) {
+    margin-bottom: 0;
+}
+
+/* header*/
+
 
 img {
     float: left;
@@ -18,16 +29,35 @@ nav {
     float: right;
 }
 
-a {
+nav > a {
     color: #333;
     text-decoration: none;
     font-size: 20px;
     margin-left: 50px;
 }
-a:first-child {
+nav > a:first-child {
     margin: 0;
 }
-a:hover {
+nav > a:hover {
     text-decoration: underline;
     color: #649;
 }
+
+
+/* main style */
+main {
+ 
+}
+
+/* footer style*/
+
+
+div > a {
+    float: left;
+}
+
+p {
+    float: right;
+    margin: 0;
+}
+
