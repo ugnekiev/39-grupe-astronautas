@@ -3,12 +3,10 @@ body {
 }
 
 
-header,
-main,
-footer {
-    width: 1000px; 
+.container {
+    width: 600px; 
     display: inline-block;
-    margin: 0 calc((100% - 1000px) / 2);
+    margin: 0 calc((100% - 600px) / 2);
 }
 
 body > * {
@@ -21,15 +19,15 @@ body > *:nth-last-child(2) {
 /* header*/
 
 
-img {
+.logo {
     float: left;
 }
 
-nav {
+.main-nav {
     float: right;
 }
 
-nav > a {
+.main-nav .link {
     color: #333;
     text-decoration: none;
     font-size: 20px;
@@ -45,18 +43,20 @@ nav > a:hover {
 
 
 /* main style */
-main {
- 
-}
+
 
 /* footer style*/
 
 
-div > a {
+.socials {
     float: left;
 }
 
-p {
+.socials a {
+
+}
+
+.copyright {
     float: right;
     margin: 0;
 }
