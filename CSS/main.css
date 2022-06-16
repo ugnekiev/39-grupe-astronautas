@@ -7,17 +7,14 @@ body {
     width: 600px; 
     display: inline-block;
     margin: 0 calc((100% - 600px) / 2);
-}
-
-body > * {
     margin-bottom: 60px;
 }
-body > *:nth-last-child(2) {
+
+.container:nth-last-child(2) {
     margin-bottom: 0;
 }
 
 /* header*/
-
 
 .logo {
     float: left;
