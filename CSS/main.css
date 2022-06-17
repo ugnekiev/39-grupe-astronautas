@@ -33,6 +33,7 @@ body {
 .main-nav .link:first-child {
     margin: 0;
 }
+
 .main-nav .link:hover {
     text-decoration: underline;
     color: #649;
@@ -55,6 +56,13 @@ body {
     font-weight: 100;
     display: block;
 }
+
+.line {
+    width: 100px;
+    height: 4px;
+    background-color: #649;
+}
+
 .description {
     font-size: 16px;
     color: rgb(158, 158, 158);
