@@ -1,12 +1,12 @@
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: system-ui, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
 .container {
-    width: 600px; 
+    width: 1000px; 
     display: inline-block;
-    margin: 0 calc((100% - 600px) / 2);
+    margin: 0 calc((100% - 1000px) / 2);
     margin-bottom: 60px;
 }
 
@@ -30,27 +30,60 @@ body {
     font-size: 20px;
     margin-left: 50px;
 }
-nav > a:first-child {
+.main-nav .link:first-child {
     margin: 0;
 }
-nav > a:hover {
+.main-nav .link:hover {
     text-decoration: underline;
     color: #649;
+    cursor: pointer;
 }
 
+.left-column {
+    width: 40%;
+    float: left;
+    margin-top: 135px;
+}
 
-/* main style */
+.main-title {
+    margin: 0;
+    display: block;
+    font-size: 58px;
+}
 
+.main-title > span {
+    font-weight: 100;
+    display: block;
+}
+.description {
+    font-size: 16px;
+    color: rgb(158, 158, 158);
+
+}
+
+.btn {
+
+}
+
+.right-column {
+    width: 55%;
+    float: right;
+}
 
 /* footer style*/
 
 
 .socials {
     float: left;
+    font-size: 25px;
 }
 
 .socials a {
-
+    color: #777;
+    text-decoration: none;
+}
+.socials a:hover {
+    color: #649;
 }
 
 .copyright {
