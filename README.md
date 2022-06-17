@@ -10,7 +10,7 @@ _39 group website project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/39-grupe-astronautas/
+Site published at: https://ugnekiev.github.io/39-grupe-astronautas/
 
 Design: [Astronaut](https://cdn.dribbble.com/users/1355613/screenshots/5964475/space.gif)
 
