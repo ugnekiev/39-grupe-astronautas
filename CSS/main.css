@@ -69,17 +69,12 @@ body {
 
 }
 
-.btn {
-
-}
-
 .right-column {
     width: 55%;
     float: right;
 }
 
 /* footer style*/
-
 
 .socials {
     float: left;
@@ -90,6 +85,7 @@ body {
     color: #777;
     text-decoration: none;
 }
+
 .socials a:hover {
     color: #649;
 }
